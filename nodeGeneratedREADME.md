@@ -1,5 +1,5 @@
 # read-me-generator homework
-  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/idallas93/undefined?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/idallas93/undefined?style=flat&logo=appveyor)
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/idallas93/read-me-generator?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/idallas93/read-me-generator?style=flat&logo=appveyor)
   
   Check out the badges hosted by [shields.io](https://shields.io/).
   
@@ -8,7 +8,7 @@
   
   *The what, why, and how:* 
   
-  Generated a readMe file using node.js and the gitHub API
+  This homework was create to generate a readme using node.js and the github API
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -26,7 +26,7 @@
   
   *Instructions and examples for use:*
   
-  undefined
+  N/A
   
   ## Tests
   

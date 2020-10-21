@@ -10,13 +10,13 @@ const axios = require("axios");
 // array of questions for user
 const questions = [{
     type: 'input',
-    name: 'username',
     message: 'What is your GitHub username (e.g., "idallas93")?',
+    name: 'username',
 },
 {
     type: 'input',
-    name: 'title',
-    message: 'What is the name of your git hub repo?',
+    message: 'What is the name of your GitHub respository',
+    name: 'repo',
 
 },
 {
@@ -32,10 +32,25 @@ const questions = [{
 
 },
 {
+    type: 'input',
+    message: "Provide instructions and examples of your project in use for the Usage section.",
+    name: 'usage'
+},
+{
     type: 'list',
     name: 'license',
     message: 'What kind of license do you use?',
     choices: ["MIT", "GNU", "N/A"]
+},
+{
+    type: 'input',
+    message: "Provide instructions and examples of project",
+    name: 'contributing'
+},
+{
+    type: 'input',
+    message: "Provide tests written for your application",
+    name: 'test'
 },
 
 ];
@@ -96,7 +111,7 @@ async function init() {
         console.log(markdown);
     
         // Write markdown to file
-        await writeFileAsync('ExampleREADME.md', markdown);
+        await writeFileAsync('nodeGeneratedREADME.md', markdown);
 
     } catch (error) {
         console.log(error);
