@@ -1,5 +1,10 @@
 # Unit 09 Node.js and ES6+ Homework: Good README Generator
 
+## video of functional README generator 
+
+
+[Watch video of README generator here](https://www.youtube.com/watch?v=VKRKBTiIMQk)
+
 
 ## User Story
 
